@@ -3,6 +3,8 @@ body{
 
     background-color: rgb(22, 21, 21);
 }
+
+
 .search-container {
     display: flex;
     align-items: center;
@@ -16,8 +18,11 @@ body{
     padding: 5px;
     border: none;
     border-bottom: 2px solid #ccc;
-    font-size: 16px;
+    font-size: 10px;
     background-color: #363333;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    color: white;
 }
 
 .side-menu {
@@ -48,13 +53,7 @@ body{
     margin: 20px;
 }
 
-.search-bar {
-    width: 200px;
-    height: 30px;
-    padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 25px;
-}
+
 
 .menu {
     display: flex;
